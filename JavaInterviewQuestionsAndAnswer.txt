@@ -1,0 +1,16 @@
+1). Question: Diamond problem (sometimes referred to as the "Deadly Diamond of Death")
+		
+			Java does not support multiple inheritance (with classes).
+			During inheritance a copy of super class members is created in the sub class object. 
+				Therefore, using the sub class object you can access the members of the both classes.
+	 Answer:
+	 	Let us assume , 
+	 			Class A (Abstract), having abstract method demo()
+	 			Class B extends Class A
+	 			Class C extends Class A
+	 			Class D extends Class B and Class C
+	 				As per the basic rule of inheritance, a copy of both demo() methods should be created in the subclass object 
+	 			which leaves the subclass with two methods with same prototype (name and arguments). Then, if you call the demo()
+	 			method using the object of the subclass compiler faces an ambiguous situation not knowing which method to call. 
+	 			This issue is known as diamond problem in Java.
+	 				
