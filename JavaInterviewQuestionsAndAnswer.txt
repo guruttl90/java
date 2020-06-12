@@ -14,3 +14,5 @@
 	 			method using the object of the subclass compiler faces an ambiguous situation not knowing which method to call. 
 	 			This issue is known as diamond problem in Java.
 	 				
+Refer:
+	https://www.tutorialspoint.com/what-is-diamond-problem-in-case-of-multiple-inheritance-in-java#:~:text=According%20to%20our%20assumption%2C%20since,both%20classes%20Super1%20and%20Super2.&text=This%20issue%20is%20known%20as,more%20than%20one%20other%20class.
