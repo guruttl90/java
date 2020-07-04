@@ -66,8 +66,18 @@ public class LamdaExpression {
 		
 		
 		//lambda expression with one arg
-		OneArgFunInterface res = (one)->{return one;};
-		System.out.println(res.method("Boss"));
+		OneArgFunInterface res1 = (one)->{return one;};
+		System.out.println(res1.method("Boss"));
+		
+		//lamda expression with one arg and no brackets
+		OneArgFunInterface res2 = one->{return one;};
+		System.out.println(res2.method("No bracket"));
+		
+		
+		//lamda expression with one arg and no brackets and curly braces and return
+				OneArgFunInterface res3 = one-> one;
+				System.out.println(res3.method("No bracket and curly braces and return"));
+		
 	}
 }
 
