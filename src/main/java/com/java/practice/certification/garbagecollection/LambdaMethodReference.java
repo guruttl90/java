@@ -49,5 +49,12 @@ public class LambdaMethodReference {
 		//3.Reference to a constructor
 		Calculator cRef4 = Calc::new;
 		cRef4.operation(2, 3);
+				
 	}
 }
+
+interface Exa extends Calculator{	
+	void one(int num1,int num2);
+	void two();
+}
+
